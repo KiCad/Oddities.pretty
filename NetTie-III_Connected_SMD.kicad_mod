@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "Just a \"Net tie\" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.")
   (tags "Just a \"Net tie\" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between 1 and 2 by yourself.")
-  (fp_text reference NetTie-III_Connected_SMD (at 0 7.62) (layer F.SilkS)
+  (fp_text reference REF** (at 0 7.62) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 -3.048) (layer F.SilkS) hide
+  (fp_text value NetTie-III_Connected_SMD (at 0 -3.048) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.524 1.27) (end 1.524 -1.27) (layer F.Cu) (width 0.3048))
